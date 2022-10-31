@@ -29,7 +29,7 @@ import {
   useTrigger,
   StrictProps,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import TextInput2 from "../../TextInput2"; // plasmic-import: wf0EastN9f_/component
 import Button from "../../Button"; // plasmic-import: 5W9CbZmWGV-/component
@@ -48,6 +48,8 @@ import SearchsvgIcon from "./icons/PlasmicIcon__Searchsvg"; // plasmic-import: t
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: RmzuV1m7hJM/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: on5inL9tgye/icon
 import image2I7GLlVst from "./images/image2.png"; // plasmic-import: I7g-LLVst/picture
+import Messenger from "../../Messenger";
+import TeeShirt from "../../TeeShirt";
 
 export type PlasmicHomepage__VariantMembers = {};
 export type PlasmicHomepage__VariantsArgs = {};
@@ -109,7 +111,7 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const $props = {
     ...args,
-    ...variants
+    ...variants,
   };
 
   return (
@@ -514,6 +516,7 @@ function PlasmicHomepage__RenderFunc(props: {
             />
 
             <Button
+              href="/teeshirt"
               className={classNames("__wab_instance", sty.button___7QizO)}
             >
               {"Messenger"}
@@ -541,7 +544,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 src: image2I7GLlVst,
                 fullWidth: 500,
                 fullHeight: 500,
-                aspectRatio: undefined
+                aspectRatio: undefined,
               }}
             />
           </div>
@@ -582,7 +585,7 @@ const PlasmicDescendants = {
     "il570XN2960743790L8XdTransformed1",
     "_6C4Bc2D236Af4BafAde1B6117E30A47C1",
     "textInput2",
-    "img"
+    "img",
   ],
   home: [
     "home",
@@ -613,7 +616,7 @@ const PlasmicDescendants = {
     "il570XN2960743790L8XdTransformed1",
     "_6C4Bc2D236Af4BafAde1B6117E30A47C1",
     "textInput2",
-    "img"
+    "img",
   ],
   rectangle794: ["rectangle794", "sweatshirts2"],
   sweatshirts2: ["sweatshirts2"],
@@ -630,32 +633,32 @@ const PlasmicDescendants = {
   twitter11: ["twitter11"],
   yesNoProblem: ["yesNoProblem"],
   e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1: [
-    "e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1"
+    "e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1",
   ],
   a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1:
     [
-      "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1"
+      "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1",
     ],
   il570XN37562444589Z5BTransformed1: ["il570XN37562444589Z5BTransformed1"],
   ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81:
     [
-      "ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81"
+      "ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81",
     ],
   b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001: [
-    "b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001"
+    "b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001",
   ],
   il570XN1: ["il570XN1"],
   il340X2703782253999K7LkTransformed1: ["il340X2703782253999K7LkTransformed1"],
   il340X27037346764826J0WTransformed1: ["il340X27037346764826J0WTransformed1"],
   ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1:
     [
-      "ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1"
+      "ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1",
     ],
   il340X2703984070216FrxfTransformed1: ["il340X2703984070216FrxfTransformed1"],
   il570XN2960743790L8XdTransformed1: ["il570XN2960743790L8XdTransformed1"],
   _6C4Bc2D236Af4BafAde1B6117E30A47C1: ["_6C4Bc2D236Af4BafAde1B6117E30A47C1"],
   textInput2: ["textInput2"],
-  img: ["img"]
+  img: ["img"],
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -729,7 +732,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
           name: nodeName,
           descendantNames: [...PlasmicDescendants[nodeName]],
           internalArgPropNames: PlasmicHomepage__ArgProps,
-          internalVariantPropNames: PlasmicHomepage__VariantProps
+          internalVariantPropNames: PlasmicHomepage__VariantProps,
         }),
       [props, nodeName]
     );
@@ -738,7 +741,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -819,8 +822,8 @@ export const PlasmicHomepage = Object.assign(
       title: "",
       description: "",
       ogImageSrc: "",
-      canonical: ""
-    }
+      canonical: "",
+    },
   }
 );
 
