@@ -29,7 +29,7 @@ import {
   useTrigger,
   StrictProps,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: 5W9CbZmWGV-/component
 import TextInput2 from "../../TextInput2"; // plasmic-import: wf0EastN9f_/component
@@ -116,7 +116,7 @@ function PlasmicTeeShirt__RenderFunc(props: {
 
   const $props = {
     ...args,
-    ...variants
+    ...variants,
   };
 
   return (
@@ -781,7 +781,7 @@ function PlasmicTeeShirt__RenderFunc(props: {
                 src: image4MItPsrAf,
                 fullWidth: 1528,
                 fullHeight: 1072,
-                aspectRatio: undefined
+                aspectRatio: undefined,
               }}
             />
 
@@ -836,7 +836,7 @@ const PlasmicDescendants = {
     "telegramLogo2",
     "twitter18",
     "logo",
-    "textInput2"
+    "textInput2",
   ],
   tShirtsType: [
     "tShirtsType",
@@ -871,7 +871,7 @@ const PlasmicDescendants = {
     "telegramLogo2",
     "twitter18",
     "logo",
-    "textInput2"
+    "textInput2",
   ],
   filterBy: ["filterBy"],
   small: ["small"],
@@ -893,7 +893,7 @@ const PlasmicDescendants = {
   rectangle771: ["rectangle771"],
   rectangle772: ["rectangle772"],
   a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020001: [
-    "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020001"
+    "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020001",
   ],
   rectangle768: ["rectangle768"],
   _10SmallAave: ["_10SmallAave"],
@@ -906,7 +906,7 @@ const PlasmicDescendants = {
   telegramLogo2: ["telegramLogo2"],
   twitter18: ["twitter18"],
   logo: ["logo"],
-  textInput2: ["textInput2"]
+  textInput2: ["textInput2"],
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -984,7 +984,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
           name: nodeName,
           descendantNames: [...PlasmicDescendants[nodeName]],
           internalArgPropNames: PlasmicTeeShirt__ArgProps,
-          internalVariantPropNames: PlasmicTeeShirt__VariantProps
+          internalVariantPropNames: PlasmicTeeShirt__VariantProps,
         }),
       [props, nodeName]
     );
@@ -993,7 +993,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -1055,8 +1055,8 @@ export const PlasmicTeeShirt = Object.assign(
       title: "",
       description: "",
       ogImageSrc: "",
-      canonical: ""
-    }
+      canonical: "",
+    },
   }
 );
 

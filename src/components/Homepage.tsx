@@ -3,7 +3,7 @@
 import * as React from "react";
 import {
   PlasmicHomepage,
-  DefaultHomepageProps
+  DefaultHomepageProps,
 } from "./plasmic/alter_merch/PlasmicHomepage";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 

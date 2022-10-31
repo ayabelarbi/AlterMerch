@@ -3,7 +3,7 @@
 import * as React from "react";
 import {
   PlasmicTShirt,
-  DefaultTShirtProps
+  DefaultTShirtProps,
 } from "./plasmic/alter_merch/PlasmicTShirt";
 import { HTMLElementRefOf } from "@plasmicapp/react-web";
 

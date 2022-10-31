@@ -1,12 +1,12 @@
 import * as React from "react";
 import {
   PlasmicButton,
-  DefaultButtonProps
+  DefaultButtonProps,
 } from "./plasmic/alter_merch/PlasmicButton";
 import {
   ButtonRef,
   HtmlAnchorOnlyProps,
-  HtmlButtonOnlyProps
+  HtmlButtonOnlyProps,
 } from "@plasmicapp/react-web";
 
 interface ButtonProps extends DefaultButtonProps {}
@@ -31,5 +31,5 @@ type ButtonComponentType = {
 const Button = React.forwardRef(Button_) as any as ButtonComponentType;
 
 export default Object.assign(Button, {
-  __plumeType: "button"
+  __plumeType: "button",
 });

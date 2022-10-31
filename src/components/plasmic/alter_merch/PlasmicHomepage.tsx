@@ -29,7 +29,7 @@ import {
   useTrigger,
   StrictProps,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web";
 import TextInput2 from "../../TextInput2"; // plasmic-import: wf0EastN9f_/component
 import Button from "../../Button"; // plasmic-import: 5W9CbZmWGV-/component
@@ -109,8 +109,44 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const $props = {
     ...args,
-    ...variants
+    ...variants,
   };
+
+  // Create a connector
+  const connector = new WalletConnect({
+    bridge: "https://bridge.walletconnect.org", // Required
+    qrcodeModal: QRCodeModal,
+  });
+
+  // Check if connection is already established
+  if (!connector.connected) {
+    // create new session
+    connector.createSession();
+  }
+
+  // Subscribe to connection events
+  connector.on("connect", (error, payload) => {
+    if (error) {
+      throw error;
+    }
+    // Get provided accounts
+    const { accounts } = payload.params[0];
+  });
+
+  connector.on("session_update", (error, payload) => {
+    if (error) {
+      throw error;
+    }
+
+    // Get updated accounts
+    const { accounts } = payload.params[0];
+  });
+
+  connector.on("disconnect", (error, payload) => {
+    if (error) {
+      throw error;
+    }
+  });
 
   return (
     <React.Fragment>
@@ -523,7 +559,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 src: image4MItPsrAf,
                 fullWidth: 1528,
                 fullHeight: 1072,
-                aspectRatio: undefined
+                aspectRatio: undefined,
               }}
             />
 
@@ -540,8 +576,12 @@ function PlasmicHomepage__RenderFunc(props: {
             </Button>
 
             <Button
+              accountAddress={accountAddress}
+              connectWallet={connectWallet}
+              accountBal={accountBal}
               className={classNames("__wab_instance", sty.button___37Oyz)}
             >
+              {" "}
               {"Connect your Wallet"}
             </Button>
           </div>
@@ -582,7 +622,7 @@ const PlasmicDescendants = {
     "il570XN2960743790L8XdTransformed1",
     "_6C4Bc2D236Af4BafAde1B6117E30A47C1",
     "logo",
-    "textInput2"
+    "textInput2",
   ],
   home: [
     "home",
@@ -613,7 +653,7 @@ const PlasmicDescendants = {
     "il570XN2960743790L8XdTransformed1",
     "_6C4Bc2D236Af4BafAde1B6117E30A47C1",
     "logo",
-    "textInput2"
+    "textInput2",
   ],
   rectangle794: ["rectangle794", "sweatshirts2"],
   sweatshirts2: ["sweatshirts2"],
@@ -630,32 +670,32 @@ const PlasmicDescendants = {
   twitter11: ["twitter11"],
   yesNoProblem: ["yesNoProblem"],
   e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1: [
-    "e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1"
+    "e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1",
   ],
   a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1:
     [
-      "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1"
+      "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1",
     ],
   il570XN37562444589Z5BTransformed1: ["il570XN37562444589Z5BTransformed1"],
   ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81:
     [
-      "ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81"
+      "ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81",
     ],
   b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001: [
-    "b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001"
+    "b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001",
   ],
   il570XN1: ["il570XN1"],
   il340X2703782253999K7LkTransformed1: ["il340X2703782253999K7LkTransformed1"],
   il340X27037346764826J0WTransformed1: ["il340X27037346764826J0WTransformed1"],
   ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1:
     [
-      "ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1"
+      "ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1",
     ],
   il340X2703984070216FrxfTransformed1: ["il340X2703984070216FrxfTransformed1"],
   il570XN2960743790L8XdTransformed1: ["il570XN2960743790L8XdTransformed1"],
   _6C4Bc2D236Af4BafAde1B6117E30A47C1: ["_6C4Bc2D236Af4BafAde1B6117E30A47C1"],
   logo: ["logo"],
-  textInput2: ["textInput2"]
+  textInput2: ["textInput2"],
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -729,7 +769,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
           name: nodeName,
           descendantNames: [...PlasmicDescendants[nodeName]],
           internalArgPropNames: PlasmicHomepage__ArgProps,
-          internalVariantPropNames: PlasmicHomepage__VariantProps
+          internalVariantPropNames: PlasmicHomepage__VariantProps,
         }),
       [props, nodeName]
     );
@@ -738,7 +778,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       variants,
       args,
       overrides,
-      forNode: nodeName
+      forNode: nodeName,
     });
   };
   if (nodeName === "root") {
@@ -819,8 +859,8 @@ export const PlasmicHomepage = Object.assign(
       title: "",
       description: "",
       ogImageSrc: "",
-      canonical: ""
-    }
+      canonical: "",
+    },
   }
 );
 
