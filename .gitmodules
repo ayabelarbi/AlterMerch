@@ -1,0 +1,6 @@
+[submodule "NFTMarketplace"]
+	path = NFTMarketplace
+	url = https://github.com/Vilijan/NFTMarketplace.git
+[submodule "auction-demo"]
+	path = auction-demo
+	url = https://github.com/algorand/auction-demo.git
