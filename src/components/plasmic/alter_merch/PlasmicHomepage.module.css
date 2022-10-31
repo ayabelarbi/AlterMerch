@@ -1,0 +1,517 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+.home {
+  background: rgba(234, 246, 228, 1);
+  filter: drop-shadow(0px -32px 59.5px rgba(0, 0, 0, 0.419));
+  width: 1440px;
+  height: 2302px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 2px;
+}
+.rectangle794 {
+  background: rgba(126, 161, 105, 0.46);
+  width: 1533px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 692px;
+  left: -24px;
+}
+.sweatshirts2 {
+  display: block;
+  font-size: 80px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 56px;
+  left: 963px;
+  width: 365px;
+  height: 118px;
+}
+.rectangle801 {
+  background: rgba(126, 161, 105, 0.46);
+  width: 1533px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 963px;
+  left: -3px;
+}
+.rectangle804 {
+  background: rgba(126, 161, 105, 0.46);
+  width: 1533px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1770px;
+  left: -49px;
+}
+.rectangle803 {
+  background: rgba(184, 207, 171, 1);
+  width: 1533px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1512px;
+  left: 0px;
+}
+.rectangle802 {
+  background: rgba(126, 161, 105, 0.46);
+  width: 1533px;
+  height: 234px;
+  display: block;
+  position: absolute;
+  top: 1240px;
+  left: -1px;
+}
+.home2 {
+  display: block;
+  font-size: 60px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 268px;
+  left: 121px;
+  width: 928px;
+  height: 118px;
+}
+.svg__azRpp {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: scale(0.999002001999996, 0.999000000002006)
+    rotate(-0.11470611204342729deg) skew(-0.05735288361884269deg, 0deg)
+    translate(0px, -0.5px);
+  width: 1242px;
+  height: 2px;
+  display: block;
+  transform-origin: top left;
+  top: 375px;
+  left: 121px;
+}
+.svg__z0A8F {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: scale(0.999, 0.999) skew(-0.05735311348973583deg, 0deg);
+  width: 1243px;
+  height: 1px;
+  display: block;
+  transform-origin: top left;
+  top: 250px;
+  left: 116px;
+}
+.rectangle779 {
+  background: rgba(43, 89, 170, 1);
+  width: 1590px;
+  height: 252px;
+  display: block;
+  position: absolute;
+  top: 416px;
+  left: -53px;
+}
+.rectangle805 {
+  background: rgba(27, 41, 138, 1);
+  width: 1590px;
+  height: 252px;
+  display: block;
+  position: absolute;
+  top: 416px;
+  left: -53px;
+}
+.text__uvW7B {
+  display: block;
+  font-size: 50px;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 438px;
+  left: 168px;
+  width: 1149px;
+  height: 213px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+.sweatshirts {
+  display: block;
+  font-size: 80px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1033px;
+  left: 121px;
+  width: 529px;
+  height: 118px;
+}
+.text__hWwIv {
+  display: block;
+  font-size: 80px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1296px;
+  left: 965px;
+  width: 316px;
+  height: 118px;
+}
+.text___6IXiF {
+  display: block;
+  font-size: 80px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1844px;
+  left: 994px;
+  width: 388px;
+  height: 74px;
+}
+.text___9Gz5J {
+  display: block;
+  font-size: 80px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.374;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1580px;
+  left: 234px;
+  width: 295px;
+  height: 71px;
+}
+.telegramLogo1 {
+  background: url("./images/telegramLogo1.png") center center / cover no-repeat;
+  width: 92px;
+  height: 85px;
+  display: block;
+  position: absolute;
+  top: 2177px;
+  left: 1103px;
+}
+.text__sJe43 {
+  display: block;
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 2070px;
+  left: 262px;
+  width: 333px;
+  height: 132px;
+}
+.twitter10 {
+  background: url("./images/twitter16.png") center center / cover no-repeat;
+  width: 122px;
+  height: 94px;
+  display: block;
+  position: absolute;
+  top: 2174px;
+  left: 834px;
+}
+.twitter11 {
+  background: url("./images/twitter12.png") center center / cover no-repeat;
+  width: 70px;
+  height: 79px;
+  display: block;
+  position: absolute;
+  top: 2178px;
+  left: 994px;
+}
+.text__i9XB9 {
+  display: block;
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 2073px;
+  left: 856px;
+  width: 208px;
+  height: 75px;
+  transform: translate(0.04399999999998272px, 0px);
+}
+.text__zwUCi {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 2136px;
+  left: 285px;
+  width: 250px;
+  height: 121px;
+}
+.svg__wrXVw {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 69px;
+  height: 71px;
+  display: block;
+  top: 89.53%;
+  left: 12.29%;
+}
+.svg__kYoau {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  width: 72.009px;
+  height: 70.349px;
+  display: block;
+  top: 2069px;
+  left: 763px;
+}
+.yesNoProblem {
+  position: absolute;
+  top: 1883px;
+  left: 5035px;
+  width: 590px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__blDli {
+  display: block;
+  font-size: 32px;
+  text-align: right;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(47, 16, 16, 1);
+}
+.svg__uWtdV {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #000;
+  transform: scale(0.999002001999996, 0.999000000002006)
+    rotate(-0.11470611204342729deg) skew(-0.05735288361884269deg, 0deg)
+    translate(0px, -0.5px);
+  width: 1242px;
+  height: 1px;
+  display: block;
+  transform-origin: top left;
+  top: 2036px;
+  left: 96px;
+}
+.e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1 {
+  background: url("./images/e68B4A6Acc8D1C866B79E79Ed618Fc2CRemovebgPreview1.png") center center / cover no-repeat;
+  width: 235px;
+  height: 208px;
+  display: block;
+  position: absolute;
+  top: 704px;
+  left: 45px;
+}
+.a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1 {
+  background: url("./images/a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020000Sy350Ql65Transformed1.png") center center / cover no-repeat;
+  width: 264px;
+  height: 233px;
+  display: block;
+  position: absolute;
+  top: 693px;
+  left: 267px;
+}
+.il570Xn37562444589Z5BTransformed1 {
+  background: url("./images/il570XN37562444589Z5BTransformed1.png") center center / cover no-repeat;
+  width: 228px;
+  height: 260px;
+  display: block;
+  position: absolute;
+  top: 685px;
+  left: 536px;
+}
+.ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81 {
+  background: url("./images/ssrcoLightweightSweatshirtMensBlackLightweightRaglanSweatshirtFrontSquareProductX600BgF8F8F81.png") center center / cover no-repeat;
+  width: 264px;
+  height: 222px;
+  display: block;
+  position: absolute;
+  top: 969px;
+  left: 696px;
+}
+.b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001 {
+  background: url("./images/b1I3U9QKsAcCLa21402000B137NywPqSpng002140200000002140020001.png") center center / cover no-repeat;
+  width: 276px;
+  height: 229px;
+  display: block;
+  position: absolute;
+  top: 968px;
+  left: 931px;
+}
+.il570Xn1 {
+  background: url("./images/il570XN1.png") center center / cover no-repeat;
+  width: 244px;
+  height: 248px;
+  display: block;
+  position: absolute;
+  top: 958px;
+  left: 1196px;
+}
+.il340X2703782253999K7LkTransformed1 {
+  background: url("./images/il340X2703782253999K7LkTransformed1.png") center center / cover no-repeat;
+  width: 287px;
+  height: 235px;
+  display: block;
+  position: absolute;
+  top: 1238px;
+  left: 103px;
+}
+.il340X27037346764826J0WTransformed1 {
+  background: url("./images/il340X27037346764826J0WTransformed1.png") center center / cover no-repeat;
+  width: 292px;
+  height: 239px;
+  display: block;
+  position: absolute;
+  top: 1234px;
+  left: 449px;
+}
+.ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1 {
+  background: url("./images/ssrcoBaseballCapProduct00000044F0B734A5FrontSquare600X600BgF8F8F8RemovebgPreview1.png") center center / cover no-repeat;
+  width: 264px;
+  height: 253px;
+  display: block;
+  position: absolute;
+  top: 1763px;
+  left: 522px;
+}
+.il340X2703984070216FrxfTransformed1 {
+  background: url("./images/il340X2703984070216FrxfTransformed1.png") center center / cover no-repeat;
+  width: 279px;
+  height: 213px;
+  display: block;
+  position: absolute;
+  top: 1791px;
+  left: 177px;
+}
+.il570Xn2960743790L8XdTransformed1 {
+  background: url("./images/il570XN2960743790L8XdTransformed1.png") center center / cover no-repeat;
+  width: 233px;
+  height: 238px;
+  display: block;
+  position: absolute;
+  top: 1512px;
+  left: 1163px;
+}
+._6C4Bc2D236Af4BafAde1B6117E30A47C1 {
+  background: url("./images/_6C4Bc2D236Af4BafAde1B6117E30A47C1.png") center center / cover no-repeat;
+  width: 333px;
+  height: 320px;
+  display: block;
+  position: absolute;
+  top: 1467px;
+  left: 874px;
+}
+.logo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  left: 602px;
+  top: 8px;
+  width: 349px;
+  height: 230px;
+}
+.logo > picture > img {
+  object-fit: cover;
+}
+.logo > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.textInput2:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 114px;
+  top: 62px;
+  width: 273px;
+}
+.svg___08Hev {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__pn4X {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button___7QizO:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 119px;
+  top: 125px;
+  height: 41px;
+  width: 112px;
+}
+.svg__fPlnQ {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__scUzK {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button___37Oyz:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 1170px;
+  top: 87px;
+}
+.svg___9XLk1 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__wgwBo {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
