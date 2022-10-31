@@ -50,7 +50,7 @@ import IconShare2Icon from "./icons/PlasmicIcon__IconShare2"; // plasmic-import:
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: RmzuV1m7hJM/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: on5inL9tgye/icon
 import SearchsvgIcon from "./icons/PlasmicIcon__Searchsvg"; // plasmic-import: tz5FLb8Srop/icon
-import image4MItPsrAf from "./images/image.png"; // plasmic-import: 4mITPsrAf/picture
+import image2I7GLlVst from "./images/image2.png"; // plasmic-import: I7g-LLVst/picture
 
 export type PlasmicTeeShirt__VariantMembers = {};
 export type PlasmicTeeShirt__VariantsArgs = {};
@@ -94,8 +94,8 @@ export type PlasmicTeeShirt__OverridesType = {
   twitter17?: p.Flex<"div">;
   telegramLogo2?: p.Flex<"div">;
   twitter18?: p.Flex<"div">;
-  logo?: p.Flex<typeof p.PlasmicImg>;
   textInput2?: p.Flex<typeof TextInput2>;
+  img?: p.Flex<typeof p.PlasmicImg>;
 };
 
 export interface DefaultTeeShirtProps {
@@ -765,6 +765,7 @@ function PlasmicTeeShirt__RenderFunc(props: {
               {"Connect your Wallet"}
             </Button>
 
+<<<<<<< HEAD
             <p.PlasmicImg
               data-plasmic-name={"logo"}
               data-plasmic-override={overrides.logo}
@@ -785,6 +786,8 @@ function PlasmicTeeShirt__RenderFunc(props: {
               }}
             />
 
+=======
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
             <TextInput2
               data-plasmic-name={"textInput2"}
               data-plasmic-override={overrides.textInput2}
@@ -794,6 +797,26 @@ function PlasmicTeeShirt__RenderFunc(props: {
             <Button className={classNames("__wab_instance", sty.button__ockN)}>
               {"Messenger"}
             </Button>
+
+            <p.PlasmicImg
+              data-plasmic-name={"img"}
+              data-plasmic-override={overrides.img}
+              alt={""}
+              className={classNames(sty.img)}
+              displayHeight={"208px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"230px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: image2I7GLlVst,
+                fullWidth: 500,
+                fullHeight: 500,
+                aspectRatio: undefined
+              }}
+            />
           </div>
         </div>
       </div>
@@ -835,8 +858,13 @@ const PlasmicDescendants = {
     "twitter17",
     "telegramLogo2",
     "twitter18",
+<<<<<<< HEAD
     "logo",
     "textInput2",
+=======
+    "textInput2",
+    "img"
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
   ],
   tShirtsType: [
     "tShirtsType",
@@ -870,8 +898,13 @@ const PlasmicDescendants = {
     "twitter17",
     "telegramLogo2",
     "twitter18",
+<<<<<<< HEAD
     "logo",
     "textInput2",
+=======
+    "textInput2",
+    "img"
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
   ],
   filterBy: ["filterBy"],
   small: ["small"],
@@ -905,8 +938,13 @@ const PlasmicDescendants = {
   twitter17: ["twitter17"],
   telegramLogo2: ["telegramLogo2"],
   twitter18: ["twitter18"],
+<<<<<<< HEAD
   logo: ["logo"],
   textInput2: ["textInput2"],
+=======
+  textInput2: ["textInput2"],
+  img: ["img"]
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -944,8 +982,8 @@ type NodeDefaultElementType = {
   twitter17: "div";
   telegramLogo2: "div";
   twitter18: "div";
-  logo: typeof p.PlasmicImg;
   textInput2: typeof TextInput2;
+  img: typeof p.PlasmicImg;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1043,8 +1081,8 @@ export const PlasmicTeeShirt = Object.assign(
     twitter17: makeNodeComponent("twitter17"),
     telegramLogo2: makeNodeComponent("telegramLogo2"),
     twitter18: makeNodeComponent("twitter18"),
-    logo: makeNodeComponent("logo"),
     textInput2: makeNodeComponent("textInput2"),
+    img: makeNodeComponent("img"),
 
     // Metadata about props expected for PlasmicTeeShirt
     internalVariantProps: PlasmicTeeShirt__VariantProps,

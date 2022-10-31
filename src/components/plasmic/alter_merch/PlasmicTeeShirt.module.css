@@ -976,21 +976,6 @@
   width: 1em;
   height: 1em;
 }
-.logo {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  left: 640px;
-  top: 16px;
-  width: 349px;
-  height: 230px;
-}
-.logo > picture > img {
-  object-fit: cover;
-}
-.logo > :global(.__wab_img-spacer) > img {
-  object-fit: cover;
-}
 .textInput2:global(.__wab_instance) {
   max-width: 100%;
   position: absolute;
@@ -1029,4 +1014,19 @@
   object-fit: cover;
   width: 1em;
   height: 1em;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  left: 650px;
+  top: 10px;
+  width: 230px;
+  height: 208px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
 }

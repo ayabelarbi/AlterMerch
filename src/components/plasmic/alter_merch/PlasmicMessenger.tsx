@@ -31,11 +31,36 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: 5W9CbZmWGV-/component
+import TextInput2 from "../../TextInput2"; // plasmic-import: wf0EastN9f_/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic_alter_merch.module.css"; // plasmic-import: xtfWGDm5314EDVZ9cvmE1G/projectcss
 import sty from "./PlasmicMessenger.module.css"; // plasmic-import: LEQxAUVaGP/css
+
+import Line9Icon from "./icons/PlasmicIcon__Line9"; // plasmic-import: ns7mWEGL0fY/icon
+import Line6Icon from "./icons/PlasmicIcon__Line6"; // plasmic-import: 0M7vxWGIKEf/icon
+import Vector5Icon from "./icons/PlasmicIcon__Vector5"; // plasmic-import: Q63xMMF-U/icon
+import IconShare2Icon from "./icons/PlasmicIcon__IconShare2"; // plasmic-import: 2g3Dmhq5iZ/icon
+import Line10Icon from "./icons/PlasmicIcon__Line10"; // plasmic-import: lXWFEKc7g/icon
+import Line12Icon from "./icons/PlasmicIcon__Line12"; // plasmic-import: 91UIfIIIOH/icon
+import Line14Icon from "./icons/PlasmicIcon__Line14"; // plasmic-import: ljbVxY_WaF/icon
+import Rectangle810Icon from "./icons/PlasmicIcon__Rectangle810"; // plasmic-import: 4D46fRCAGH/icon
+import Line15Icon from "./icons/PlasmicIcon__Line15"; // plasmic-import: Z74aigg49o/icon
+import Line16Icon from "./icons/PlasmicIcon__Line16"; // plasmic-import: yimRjRw5Ev/icon
+import Line17Icon from "./icons/PlasmicIcon__Line17"; // plasmic-import: TqyGZRWBQq/icon
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: RmzuV1m7hJM/icon
+import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: on5inL9tgye/icon
+import SearchsvgIcon from "./icons/PlasmicIcon__Searchsvg"; // plasmic-import: tz5FLb8Srop/icon
+import ellipse21M0GtFp9Fn from "./images/ellipse21.svg"; // plasmic-import: m0GtFp9Fn/picture
+import ellipse22Cyztz6EwCp from "./images/ellipse22.svg"; // plasmic-import: cyztz6ewCP/picture
+import ellipse23LJngA79Jn from "./images/ellipse23.svg"; // plasmic-import: LJng_A79Jn/picture
+import ellipse24JTyxXp9UYs from "./images/ellipse24.svg"; // plasmic-import: JTyxXP9uYS/picture
+import ellipse7TKyllftJ0E from "./images/ellipse7.svg"; // plasmic-import: tKyllftJ0E/picture
+import ellipse8WRsXDDCdx from "./images/ellipse8.svg"; // plasmic-import: WRsX-dDCdx/picture
+import ellipse25RQhljhEuXz from "./images/ellipse25.svg"; // plasmic-import: rQhljhEuXZ/picture
+import image2I7GLlVst from "./images/image2.png"; // plasmic-import: I7g-LLVst/picture
 
 export type PlasmicMessenger__VariantMembers = {};
 export type PlasmicMessenger__VariantsArgs = {};
@@ -48,6 +73,34 @@ export const PlasmicMessenger__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicMessenger__OverridesType = {
   root?: p.Flex<"div">;
+  messagerie?: p.Flex<"div">;
+  homeMessenger?: p.Flex<"div">;
+  frame7?: p.Flex<"div">;
+  twitter12?: p.Flex<"div">;
+  telegramLogo1?: p.Flex<"div">;
+  twitter16?: p.Flex<"div">;
+  rectangle770?: p.Flex<"div">;
+  rectangle807?: p.Flex<"div">;
+  rectangle771?: p.Flex<"div">;
+  rectangle816?: p.Flex<"div">;
+  messages?: p.Flex<"div">;
+  rectangle806?: p.Flex<"div">;
+  rectangle812?: p.Flex<"div">;
+  rectangle814?: p.Flex<"div">;
+  rectangle813?: p.Flex<"div">;
+  rectangle815?: p.Flex<"div">;
+  send?: p.Flex<"div">;
+  helloCanIGetMorePicturesPlease?: p.Flex<"div">;
+  user1?: p.Flex<"div">;
+  user3?: p.Flex<"div">;
+  user2?: p.Flex<"div">;
+  yes?: p.Flex<"div">;
+  yes2?: p.Flex<"div">;
+  il570XN359644191448NrTransformed2?: p.Flex<"div">;
+  perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage?: p.Flex<"div">;
+  _810AcceptedProceedToThePayment?: p.Flex<"div">;
+  contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer?: p.Flex<"div">;
+  textInput2?: p.Flex<typeof TextInput2>;
 };
 
 export interface DefaultMessengerProps {
@@ -88,20 +141,792 @@ function PlasmicMessenger__RenderFunc(props: {
             projectcss.plasmic_mixins,
             sty.root
           )}
-        />
+        >
+          <div
+            data-plasmic-name={"messagerie"}
+            data-plasmic-override={overrides.messagerie}
+            className={classNames(projectcss.all, sty.messagerie)}
+          >
+            <div
+              data-plasmic-name={"homeMessenger"}
+              data-plasmic-override={overrides.homeMessenger}
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.homeMessenger
+              )}
+            >
+              {"Home > Messenger \n"}
+            </div>
+
+            <div
+              data-plasmic-name={"frame7"}
+              data-plasmic-override={overrides.frame7}
+              className={classNames(projectcss.all, sty.frame7)}
+            />
+
+            <Line9Icon
+              className={classNames(projectcss.all, sty.svg__roFjU)}
+              role={"img"}
+            />
+
+            <Line6Icon
+              className={classNames(projectcss.all, sty.svg__kqkuF)}
+              role={"img"}
+            />
+
+            <Line9Icon
+              className={classNames(projectcss.all, sty.svg__lVmsx)}
+              role={"img"}
+            />
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__roH01
+              )}
+            >
+              {"Help & Contact"}
+            </div>
+
+            <div
+              data-plasmic-name={"twitter12"}
+              data-plasmic-override={overrides.twitter12}
+              className={classNames(projectcss.all, sty.twitter12)}
+            />
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___5Eekc
+              )}
+            >
+              {
+                "Frequent Questions\nApplication Altermerch\nDelivery \nFollow my delivery"
+              }
+            </div>
+
+            <Vector5Icon
+              className={classNames(projectcss.all, sty.svg__govFi)}
+              role={"img"}
+            />
+
+            <IconShare2Icon
+              className={classNames(projectcss.all, sty.svg__bAa8X)}
+              role={"img"}
+            />
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__aH6D
+              )}
+            >
+              {"Help & Contact"}
+            </div>
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__i669O
+              )}
+            >
+              {
+                "Frequent Questions\nApplication Altermerch\nDelivery \nFollow my delivery"
+              }
+            </div>
+
+            <Vector5Icon
+              className={classNames(projectcss.all, sty.svg___5ZlAz)}
+              role={"img"}
+            />
+
+            <IconShare2Icon
+              className={classNames(projectcss.all, sty.svg__mUdkl)}
+              role={"img"}
+            />
+
+            <div
+              data-plasmic-name={"telegramLogo1"}
+              data-plasmic-override={overrides.telegramLogo1}
+              className={classNames(projectcss.all, sty.telegramLogo1)}
+            />
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__zs3Dz
+              )}
+            >
+              {"Help & Contact"}
+            </div>
+
+            <div
+              data-plasmic-name={"twitter16"}
+              data-plasmic-override={overrides.twitter16}
+              className={classNames(projectcss.all, sty.twitter16)}
+            />
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__uge07
+              )}
+            >
+              {"Share on"}
+            </div>
+
+            <Vector5Icon
+              className={classNames(projectcss.all, sty.svg__yzSKk)}
+              role={"img"}
+            />
+
+            <IconShare2Icon
+              className={classNames(projectcss.all, sty.svg__lAlXy)}
+              role={"img"}
+            />
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___4UHiP
+              )}
+            >
+              {"MESSAGES"}
+            </div>
+
+            <Line10Icon
+              className={classNames(projectcss.all, sty.svg__kTlV2)}
+              role={"img"}
+            />
+
+            <Line10Icon
+              className={classNames(projectcss.all, sty.svg___98Lg4)}
+              role={"img"}
+            />
+
+            <Line10Icon
+              className={classNames(projectcss.all, sty.svg__dNtUr)}
+              role={"img"}
+            />
+
+            <Line12Icon
+              className={classNames(projectcss.all, sty.svg__fVVq1)}
+              role={"img"}
+            />
+
+            <Line14Icon
+              className={classNames(projectcss.all, sty.svg__ezx5)}
+              role={"img"}
+            />
+
+            <div
+              data-plasmic-name={"rectangle770"}
+              data-plasmic-override={overrides.rectangle770}
+              className={classNames(projectcss.all, sty.rectangle770)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle807"}
+              data-plasmic-override={overrides.rectangle807}
+              className={classNames(projectcss.all, sty.rectangle807)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle771"}
+              data-plasmic-override={overrides.rectangle771}
+              className={classNames(projectcss.all, sty.rectangle771)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle816"}
+              data-plasmic-override={overrides.rectangle816}
+              className={classNames(projectcss.all, sty.rectangle816)}
+            />
+
+            <Rectangle810Icon
+              className={classNames(projectcss.all, sty.svg__v0F83)}
+              role={"img"}
+            />
+
+            <div
+              data-plasmic-name={"messages"}
+              data-plasmic-override={overrides.messages}
+              className={classNames(projectcss.all, sty.messages)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__bkrSo
+                )}
+              >
+                {"Messages"}
+              </div>
+            </div>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__jEetq)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse21M0GtFp9Fn,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__k0Kh3)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse22Cyztz6EwCp,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__z6IrC)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse23LJngA79Jn,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <div
+              data-plasmic-name={"rectangle806"}
+              data-plasmic-override={overrides.rectangle806}
+              className={classNames(projectcss.all, sty.rectangle806)}
+            />
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__rjAd)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse24JTyxXp9UYs,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <div
+              data-plasmic-name={"rectangle812"}
+              data-plasmic-override={overrides.rectangle812}
+              className={classNames(projectcss.all, sty.rectangle812)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle814"}
+              data-plasmic-override={overrides.rectangle814}
+              className={classNames(projectcss.all, sty.rectangle814)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle813"}
+              data-plasmic-override={overrides.rectangle813}
+              className={classNames(projectcss.all, sty.rectangle813)}
+            />
+
+            <div
+              data-plasmic-name={"rectangle815"}
+              data-plasmic-override={overrides.rectangle815}
+              className={classNames(projectcss.all, sty.rectangle815)}
+            />
+
+            <div
+              data-plasmic-name={"send"}
+              data-plasmic-override={overrides.send}
+              className={classNames(projectcss.all, sty.send)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__ln7UE
+                )}
+              >
+                {"Send"}
+              </div>
+            </div>
+
+            <Line15Icon
+              className={classNames(projectcss.all, sty.svg__snw7W)}
+              role={"img"}
+            />
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img___2DdNc)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse7TKyllftJ0E,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <div
+              data-plasmic-name={"helloCanIGetMorePicturesPlease"}
+              data-plasmic-override={overrides.helloCanIGetMorePicturesPlease}
+              className={classNames(
+                projectcss.all,
+                sty.helloCanIGetMorePicturesPlease
+              )}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__k7ROq
+                )}
+              >
+                {"Hello! Can I get more pictures please?"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"user1"}
+              data-plasmic-override={overrides.user1}
+              className={classNames(projectcss.all, sty.user1)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__r4Ckm
+                )}
+              >
+                {"@user1"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"user3"}
+              data-plasmic-override={overrides.user3}
+              className={classNames(projectcss.all, sty.user3)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___8RGzc
+                )}
+              >
+                {"@user3"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"user2"}
+              data-plasmic-override={overrides.user2}
+              className={classNames(projectcss.all, sty.user2)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__dqxKs
+                )}
+              >
+                {"@user2"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"yes"}
+              data-plasmic-override={overrides.yes}
+              className={classNames(projectcss.all, sty.yes)}
+            >
+              <div
+                data-plasmic-name={"yes2"}
+                data-plasmic-override={overrides.yes2}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.yes2
+                )}
+              >
+                {" Yes\n"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"il570XN359644191448NrTransformed2"}
+              data-plasmic-override={
+                overrides.il570XN359644191448NrTransformed2
+              }
+              className={classNames(
+                projectcss.all,
+                sty.il570Xn359644191448NrTransformed2
+              )}
+            />
+
+            <div
+              data-plasmic-name={
+                "perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage"
+              }
+              data-plasmic-override={
+                overrides.perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage
+              }
+              className={classNames(
+                projectcss.all,
+                sty.perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage
+              )}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__jZxDp
+                )}
+              >
+                {
+                  "Perfect ! The buyer has already paid the shipping costs. You can now download the delivery note, print it out and send the package."
+                }
+              </div>
+            </div>
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__pOusX
+              )}
+            >
+              {"Hats Polygon- 10€"}
+            </div>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__au2Pe)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse8WRsXDDCdx,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__u014B)}
+              displayHeight={"61px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"64px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: ellipse25RQhljhEuXz,
+                fullWidth: 64,
+                fullHeight: 61,
+                aspectRatio: 1.04918
+              }}
+            />
+
+            <Line16Icon
+              className={classNames(projectcss.all, sty.svg__teU1I)}
+              role={"img"}
+            />
+
+            <Line17Icon
+              className={classNames(projectcss.all, sty.svg___30Rzs)}
+              role={"img"}
+            />
+
+            <Line16Icon
+              className={classNames(projectcss.all, sty.svg__i1Hav)}
+              role={"img"}
+            />
+
+            <div
+              data-plasmic-name={"_810AcceptedProceedToThePayment"}
+              data-plasmic-override={overrides._810AcceptedProceedToThePayment}
+              className={classNames(
+                projectcss.all,
+                sty._810AcceptedProceedToThePayment
+              )}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__uumDi
+                )}
+              >
+                {"8€ 10€\nAccepted ! Proceed to the payment."}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={
+                "contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer"
+              }
+              data-plasmic-override={
+                overrides.contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer
+              }
+              className={classNames(
+                projectcss.all,
+                sty.contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer
+              )}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__p444Q
+                )}
+              >
+                {
+                  "Contact the seller or the buyer to get more information or make an offer..."
+                }
+              </div>
+            </div>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img___8QVx)}
+              displayHeight={"208px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"230px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: image2I7GLlVst,
+                fullWidth: 500,
+                fullHeight: 500,
+                aspectRatio: undefined
+              }}
+            />
+
+            <Button className={classNames("__wab_instance", sty.button__fqj6M)}>
+              {"Connect your Wallet"}
+            </Button>
+
+            <TextInput2
+              data-plasmic-name={"textInput2"}
+              data-plasmic-override={overrides.textInput2}
+              className={classNames("__wab_instance", sty.textInput2)}
+            />
+
+            <Button className={classNames("__wab_instance", sty.button__jKcfE)}>
+              {"Messenger"}
+            </Button>
+          </div>
+
+          <p.PlasmicImg
+            alt={""}
+            className={classNames(sty.img__m2EgC)}
+            displayHeight={"208px" as const}
+            displayMaxHeight={"none" as const}
+            displayMaxWidth={"100%" as const}
+            displayMinHeight={"0" as const}
+            displayMinWidth={"0" as const}
+            displayWidth={"230px" as const}
+            loading={"lazy" as const}
+            src={{
+              src: image2I7GLlVst,
+              fullWidth: 500,
+              fullHeight: 500,
+              aspectRatio: undefined
+            }}
+          />
+
+          <Button className={classNames("__wab_instance", sty.button__g9Ors)}>
+            {"Connect your Wallet"}
+          </Button>
+        </div>
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: [
+    "root",
+    "messagerie",
+    "homeMessenger",
+    "frame7",
+    "twitter12",
+    "telegramLogo1",
+    "twitter16",
+    "rectangle770",
+    "rectangle807",
+    "rectangle771",
+    "rectangle816",
+    "messages",
+    "rectangle806",
+    "rectangle812",
+    "rectangle814",
+    "rectangle813",
+    "rectangle815",
+    "send",
+    "helloCanIGetMorePicturesPlease",
+    "user1",
+    "user3",
+    "user2",
+    "yes",
+    "yes2",
+    "il570XN359644191448NrTransformed2",
+    "perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage",
+    "_810AcceptedProceedToThePayment",
+    "contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer",
+    "textInput2"
+  ],
+  messagerie: [
+    "messagerie",
+    "homeMessenger",
+    "frame7",
+    "twitter12",
+    "telegramLogo1",
+    "twitter16",
+    "rectangle770",
+    "rectangle807",
+    "rectangle771",
+    "rectangle816",
+    "messages",
+    "rectangle806",
+    "rectangle812",
+    "rectangle814",
+    "rectangle813",
+    "rectangle815",
+    "send",
+    "helloCanIGetMorePicturesPlease",
+    "user1",
+    "user3",
+    "user2",
+    "yes",
+    "yes2",
+    "il570XN359644191448NrTransformed2",
+    "perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage",
+    "_810AcceptedProceedToThePayment",
+    "contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer",
+    "textInput2"
+  ],
+  homeMessenger: ["homeMessenger"],
+  frame7: ["frame7"],
+  twitter12: ["twitter12"],
+  telegramLogo1: ["telegramLogo1"],
+  twitter16: ["twitter16"],
+  rectangle770: ["rectangle770"],
+  rectangle807: ["rectangle807"],
+  rectangle771: ["rectangle771"],
+  rectangle816: ["rectangle816"],
+  messages: ["messages"],
+  rectangle806: ["rectangle806"],
+  rectangle812: ["rectangle812"],
+  rectangle814: ["rectangle814"],
+  rectangle813: ["rectangle813"],
+  rectangle815: ["rectangle815"],
+  send: ["send"],
+  helloCanIGetMorePicturesPlease: ["helloCanIGetMorePicturesPlease"],
+  user1: ["user1"],
+  user3: ["user3"],
+  user2: ["user2"],
+  yes: ["yes", "yes2"],
+  yes2: ["yes2"],
+  il570XN359644191448NrTransformed2: ["il570XN359644191448NrTransformed2"],
+  perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage:
+    [
+      "perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage"
+    ],
+  _810AcceptedProceedToThePayment: ["_810AcceptedProceedToThePayment"],
+  contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer: [
+    "contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer"
+  ],
+  textInput2: ["textInput2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  messagerie: "div";
+  homeMessenger: "div";
+  frame7: "div";
+  twitter12: "div";
+  telegramLogo1: "div";
+  twitter16: "div";
+  rectangle770: "div";
+  rectangle807: "div";
+  rectangle771: "div";
+  rectangle816: "div";
+  messages: "div";
+  rectangle806: "div";
+  rectangle812: "div";
+  rectangle814: "div";
+  rectangle813: "div";
+  rectangle815: "div";
+  send: "div";
+  helloCanIGetMorePicturesPlease: "div";
+  user1: "div";
+  user3: "div";
+  user2: "div";
+  yes: "div";
+  yes2: "div";
+  il570XN359644191448NrTransformed2: "div";
+  perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage: "div";
+  _810AcceptedProceedToThePayment: "div";
+  contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer: "div";
+  textInput2: typeof TextInput2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -165,6 +990,46 @@ export const PlasmicMessenger = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    messagerie: makeNodeComponent("messagerie"),
+    homeMessenger: makeNodeComponent("homeMessenger"),
+    frame7: makeNodeComponent("frame7"),
+    twitter12: makeNodeComponent("twitter12"),
+    telegramLogo1: makeNodeComponent("telegramLogo1"),
+    twitter16: makeNodeComponent("twitter16"),
+    rectangle770: makeNodeComponent("rectangle770"),
+    rectangle807: makeNodeComponent("rectangle807"),
+    rectangle771: makeNodeComponent("rectangle771"),
+    rectangle816: makeNodeComponent("rectangle816"),
+    messages: makeNodeComponent("messages"),
+    rectangle806: makeNodeComponent("rectangle806"),
+    rectangle812: makeNodeComponent("rectangle812"),
+    rectangle814: makeNodeComponent("rectangle814"),
+    rectangle813: makeNodeComponent("rectangle813"),
+    rectangle815: makeNodeComponent("rectangle815"),
+    send: makeNodeComponent("send"),
+    helloCanIGetMorePicturesPlease: makeNodeComponent(
+      "helloCanIGetMorePicturesPlease"
+    ),
+    user1: makeNodeComponent("user1"),
+    user3: makeNodeComponent("user3"),
+    user2: makeNodeComponent("user2"),
+    yes: makeNodeComponent("yes"),
+    yes2: makeNodeComponent("yes2"),
+    il570XN359644191448NrTransformed2: makeNodeComponent(
+      "il570XN359644191448NrTransformed2"
+    ),
+    perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage:
+      makeNodeComponent(
+        "perfectTheBuyerHasAlreadyPaidTheShippingCostsYouCanNowDownloadTheDeliveryNotePrintItOutAndSendThePackage"
+      ),
+    _810AcceptedProceedToThePayment: makeNodeComponent(
+      "_810AcceptedProceedToThePayment"
+    ),
+    contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer:
+      makeNodeComponent(
+        "contactTheSellerOrTheBuyerToGetMoreInformationOrMakeAnOffer"
+      ),
+    textInput2: makeNodeComponent("textInput2"),
 
     // Metadata about props expected for PlasmicMessenger
     internalVariantProps: PlasmicMessenger__VariantProps,

@@ -47,7 +47,7 @@ import Line9Icon from "./icons/PlasmicIcon__Line9"; // plasmic-import: ns7mWEGL0
 import SearchsvgIcon from "./icons/PlasmicIcon__Searchsvg"; // plasmic-import: tz5FLb8Srop/icon
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: RmzuV1m7hJM/icon
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: on5inL9tgye/icon
-import image4MItPsrAf from "./images/image.png"; // plasmic-import: 4mITPsrAf/picture
+import image2I7GLlVst from "./images/image2.png"; // plasmic-import: I7g-LLVst/picture
 
 export type PlasmicHomepage__VariantMembers = {};
 export type PlasmicHomepage__VariantsArgs = {};
@@ -87,8 +87,8 @@ export type PlasmicHomepage__OverridesType = {
   il340X2703984070216FrxfTransformed1?: p.Flex<"div">;
   il570XN2960743790L8XdTransformed1?: p.Flex<"div">;
   _6C4Bc2D236Af4BafAde1B6117E30A47C1?: p.Flex<"div">;
-  logo?: p.Flex<typeof p.PlasmicImg>;
   textInput2?: p.Flex<typeof TextInput2>;
+  img?: p.Flex<typeof p.PlasmicImg>;
 };
 
 export interface DefaultHomepageProps {
@@ -543,6 +543,7 @@ function PlasmicHomepage__RenderFunc(props: {
               )}
             />
 
+<<<<<<< HEAD
             <p.PlasmicImg
               data-plasmic-name={"logo"}
               data-plasmic-override={overrides.logo}
@@ -563,6 +564,8 @@ function PlasmicHomepage__RenderFunc(props: {
               }}
             />
 
+=======
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
             <TextInput2
               data-plasmic-name={"textInput2"}
               data-plasmic-override={overrides.textInput2}
@@ -584,6 +587,26 @@ function PlasmicHomepage__RenderFunc(props: {
               {" "}
               {"Connect your Wallet"}
             </Button>
+
+            <p.PlasmicImg
+              data-plasmic-name={"img"}
+              data-plasmic-override={overrides.img}
+              alt={""}
+              className={classNames(sty.img)}
+              displayHeight={"208px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"230px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: image2I7GLlVst,
+                fullWidth: 500,
+                fullHeight: 500,
+                aspectRatio: undefined
+              }}
+            />
           </div>
         </div>
       </div>
@@ -621,8 +644,13 @@ const PlasmicDescendants = {
     "il340X2703984070216FrxfTransformed1",
     "il570XN2960743790L8XdTransformed1",
     "_6C4Bc2D236Af4BafAde1B6117E30A47C1",
+<<<<<<< HEAD
     "logo",
     "textInput2",
+=======
+    "textInput2",
+    "img"
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
   ],
   home: [
     "home",
@@ -652,8 +680,13 @@ const PlasmicDescendants = {
     "il340X2703984070216FrxfTransformed1",
     "il570XN2960743790L8XdTransformed1",
     "_6C4Bc2D236Af4BafAde1B6117E30A47C1",
+<<<<<<< HEAD
     "logo",
     "textInput2",
+=======
+    "textInput2",
+    "img"
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
   ],
   rectangle794: ["rectangle794", "sweatshirts2"],
   sweatshirts2: ["sweatshirts2"],
@@ -694,8 +727,13 @@ const PlasmicDescendants = {
   il340X2703984070216FrxfTransformed1: ["il340X2703984070216FrxfTransformed1"],
   il570XN2960743790L8XdTransformed1: ["il570XN2960743790L8XdTransformed1"],
   _6C4Bc2D236Af4BafAde1B6117E30A47C1: ["_6C4Bc2D236Af4BafAde1B6117E30A47C1"],
+<<<<<<< HEAD
   logo: ["logo"],
   textInput2: ["textInput2"],
+=======
+  textInput2: ["textInput2"],
+  img: ["img"]
+>>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -729,8 +767,8 @@ type NodeDefaultElementType = {
   il340X2703984070216FrxfTransformed1: "div";
   il570XN2960743790L8XdTransformed1: "div";
   _6C4Bc2D236Af4BafAde1B6117E30A47C1: "div";
-  logo: typeof p.PlasmicImg;
   textInput2: typeof TextInput2;
+  img: typeof p.PlasmicImg;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -847,8 +885,8 @@ export const PlasmicHomepage = Object.assign(
     _6C4Bc2D236Af4BafAde1B6117E30A47C1: makeNodeComponent(
       "_6C4Bc2D236Af4BafAde1B6117E30A47C1"
     ),
-    logo: makeNodeComponent("logo"),
     textInput2: makeNodeComponent("textInput2"),
+    img: makeNodeComponent("img"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
