@@ -20,7 +20,7 @@
   flex-shrink: 0;
   border-radius: 2px;
 }
-.rectangle794 {
+.teeshirt {
   background: rgba(126, 161, 105, 0.46);
   width: 1533px;
   height: 234px;
@@ -29,7 +29,7 @@
   top: 692px;
   left: -24px;
 }
-.sweatshirts2 {
+.teeShirt {
   display: block;
   font-size: 80px;
   font-family: "Space Grotesk", sans-serif;
@@ -508,6 +508,8 @@
   top: 10px;
   width: 230px;
   height: 208px;
+  transform: translateX(0px) translateY(0px) translateZ(0px);
+  box-shadow: 0px 4px 16px 0px #00000033;
 }
 .img > picture > img {
   object-fit: cover;
