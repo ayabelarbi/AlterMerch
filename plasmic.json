@@ -478,6 +478,11 @@
           "id": "TqyGZRWBQq",
           "name": "Line17Icon",
           "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Line17.tsx"
+        },
+        {
+          "id": "A2Kedw-JG",
+          "name": "Vector7Icon",
+          "moduleFilePath": "plasmic/alter_merch/icons/PlasmicIcon__Vector7.tsx"
         }
       ],
       "images": [
@@ -598,23 +603,23 @@
         },
         {
           "id": "wBb6RPPxK",
+          "name": "Ellipse 26",
+          "filePath": "plasmic/alter_merch/images/ellipse26.png"
+        },
+        {
+          "id": "9FoV9J4TO-",
           "name": "Ellipse 19",
           "filePath": "plasmic/alter_merch/images/ellipse19.png"
         },
         {
-          "id": "9FoV9J4TO-",
-          "name": "Ellipse 20",
-          "filePath": "plasmic/alter_merch/images/ellipse20.png"
-        },
-        {
           "id": "63y6SrH4fc",
-          "name": "Ellipse 5",
-          "filePath": "plasmic/alter_merch/images/ellipse5.png"
+          "name": "Ellipse 9",
+          "filePath": "plasmic/alter_merch/images/ellipse9.png"
         },
         {
           "id": "3j0lIWrcFk",
-          "name": "Ellipse 6",
-          "filePath": "plasmic/alter_merch/images/ellipse6.png"
+          "name": "Ellipse 5",
+          "filePath": "plasmic/alter_merch/images/ellipse5.png"
         },
         {
           "id": "-OJ3vppPmz",
@@ -650,6 +655,46 @@
           "id": "UsNeTSCwGz",
           "name": "Ellipse 18",
           "filePath": "plasmic/alter_merch/images/ellipse18.svg"
+        },
+        {
+          "id": "I7g-LLVst",
+          "name": "image 2",
+          "filePath": "plasmic/alter_merch/images/image2.png"
+        },
+        {
+          "id": "m0GtFp9Fn",
+          "name": "Ellipse 21",
+          "filePath": "plasmic/alter_merch/images/ellipse21.svg"
+        },
+        {
+          "id": "cyztz6ewCP",
+          "name": "Ellipse 22",
+          "filePath": "plasmic/alter_merch/images/ellipse22.svg"
+        },
+        {
+          "id": "LJng_A79Jn",
+          "name": "Ellipse 23",
+          "filePath": "plasmic/alter_merch/images/ellipse23.svg"
+        },
+        {
+          "id": "JTyxXP9uYS",
+          "name": "Ellipse 24",
+          "filePath": "plasmic/alter_merch/images/ellipse24.svg"
+        },
+        {
+          "id": "tKyllftJ0E",
+          "name": "Ellipse 7",
+          "filePath": "plasmic/alter_merch/images/ellipse7.svg"
+        },
+        {
+          "id": "WRsX-dDCdx",
+          "name": "Ellipse 8",
+          "filePath": "plasmic/alter_merch/images/ellipse8.svg"
+        },
+        {
+          "id": "rQhljhEuXZ",
+          "name": "Ellipse 25",
+          "filePath": "plasmic/alter_merch/images/ellipse25.svg"
         }
       ],
       "indirect": false,
