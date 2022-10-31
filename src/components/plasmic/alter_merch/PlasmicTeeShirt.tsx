@@ -29,7 +29,7 @@ import {
   useTrigger,
   StrictProps,
   deriveRenderOpts,
-  ensureGlobalVariants,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: 5W9CbZmWGV-/component
 import TextInput2 from "../../TextInput2"; // plasmic-import: wf0EastN9f_/component
@@ -116,7 +116,7 @@ function PlasmicTeeShirt__RenderFunc(props: {
 
   const $props = {
     ...args,
-    ...variants,
+    ...variants
   };
 
   return (
@@ -765,29 +765,6 @@ function PlasmicTeeShirt__RenderFunc(props: {
               {"Connect your Wallet"}
             </Button>
 
-<<<<<<< HEAD
-            <p.PlasmicImg
-              data-plasmic-name={"logo"}
-              data-plasmic-override={overrides.logo}
-              alt={""}
-              className={classNames(sty.logo)}
-              displayHeight={"230px" as const}
-              displayMaxHeight={"none" as const}
-              displayMaxWidth={"100%" as const}
-              displayMinHeight={"0" as const}
-              displayMinWidth={"0" as const}
-              displayWidth={"349px" as const}
-              loading={"lazy" as const}
-              src={{
-                src: image4MItPsrAf,
-                fullWidth: 1528,
-                fullHeight: 1072,
-                aspectRatio: undefined,
-              }}
-            />
-
-=======
->>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
             <TextInput2
               data-plasmic-name={"textInput2"}
               data-plasmic-override={overrides.textInput2}
@@ -858,13 +835,8 @@ const PlasmicDescendants = {
     "twitter17",
     "telegramLogo2",
     "twitter18",
-<<<<<<< HEAD
-    "logo",
-    "textInput2",
-=======
     "textInput2",
     "img"
->>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
   ],
   tShirtsType: [
     "tShirtsType",
@@ -898,13 +870,8 @@ const PlasmicDescendants = {
     "twitter17",
     "telegramLogo2",
     "twitter18",
-<<<<<<< HEAD
-    "logo",
-    "textInput2",
-=======
     "textInput2",
     "img"
->>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
   ],
   filterBy: ["filterBy"],
   small: ["small"],
@@ -926,7 +893,7 @@ const PlasmicDescendants = {
   rectangle771: ["rectangle771"],
   rectangle772: ["rectangle772"],
   a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020001: [
-    "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020001",
+    "a13UsaonutLAcCLa2140200051DfVcQYhLpng002140200000002140020001"
   ],
   rectangle768: ["rectangle768"],
   _10SmallAave: ["_10SmallAave"],
@@ -938,13 +905,8 @@ const PlasmicDescendants = {
   twitter17: ["twitter17"],
   telegramLogo2: ["telegramLogo2"],
   twitter18: ["twitter18"],
-<<<<<<< HEAD
-  logo: ["logo"],
-  textInput2: ["textInput2"],
-=======
   textInput2: ["textInput2"],
   img: ["img"]
->>>>>>> 4e156aacc76e79ba02185e6bbe66824d82f7e447
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1022,7 +984,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
           name: nodeName,
           descendantNames: [...PlasmicDescendants[nodeName]],
           internalArgPropNames: PlasmicTeeShirt__ArgProps,
-          internalVariantPropNames: PlasmicTeeShirt__VariantProps,
+          internalVariantPropNames: PlasmicTeeShirt__VariantProps
         }),
       [props, nodeName]
     );
@@ -1031,7 +993,7 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
       variants,
       args,
       overrides,
-      forNode: nodeName,
+      forNode: nodeName
     });
   };
   if (nodeName === "root") {
@@ -1093,8 +1055,8 @@ export const PlasmicTeeShirt = Object.assign(
       title: "",
       description: "",
       ogImageSrc: "",
-      canonical: "",
-    },
+      canonical: ""
+    }
   }
 );
 
