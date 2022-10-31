@@ -63,8 +63,8 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
   home?: p.Flex<"div">;
-  rectangle794?: p.Flex<"a">;
-  sweatshirts2?: p.Flex<"div">;
+  teeshirt?: p.Flex<"a">;
+  teeShirt?: p.Flex<"div">;
   rectangle801?: p.Flex<"div">;
   rectangle804?: p.Flex<"div">;
   rectangle803?: p.Flex<"div">;
@@ -138,22 +138,18 @@ function PlasmicHomepage__RenderFunc(props: {
             className={classNames(projectcss.all, sty.home)}
           >
             <a
-              data-plasmic-name={"rectangle794"}
-              data-plasmic-override={overrides.rectangle794}
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.rectangle794
-              )}
+              data-plasmic-name={"teeshirt"}
+              data-plasmic-override={overrides.teeshirt}
+              className={classNames(projectcss.all, projectcss.a, sty.teeshirt)}
               href={`/tee-shirt`}
             >
               <div
-                data-plasmic-name={"sweatshirts2"}
-                data-plasmic-override={overrides.sweatshirts2}
+                data-plasmic-name={"teeShirt"}
+                data-plasmic-override={overrides.teeShirt}
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.sweatshirts2
+                  sty.teeShirt
                 )}
               >
                 {"Tee-shirt"}
@@ -518,6 +514,7 @@ function PlasmicHomepage__RenderFunc(props: {
             <Button
               href="/teeshirt"
               className={classNames("__wab_instance", sty.button___7QizO)}
+              link={`/messenger`}
             >
               {"Messenger"}
             </Button>
@@ -531,7 +528,7 @@ function PlasmicHomepage__RenderFunc(props: {
             <p.PlasmicImg
               data-plasmic-name={"img"}
               data-plasmic-override={overrides.img}
-              alt={""}
+              alt={"" as const}
               className={classNames(sty.img)}
               displayHeight={"208px" as const}
               displayMaxHeight={"none" as const}
@@ -539,6 +536,7 @@ function PlasmicHomepage__RenderFunc(props: {
               displayMinHeight={"0" as const}
               displayMinWidth={"0" as const}
               displayWidth={"230px" as const}
+              link={"" as const}
               loading={"lazy" as const}
               src={{
                 src: image2I7GLlVst,
@@ -558,8 +556,8 @@ const PlasmicDescendants = {
   root: [
     "root",
     "home",
-    "rectangle794",
-    "sweatshirts2",
+    "teeshirt",
+    "teeShirt",
     "rectangle801",
     "rectangle804",
     "rectangle803",
@@ -589,8 +587,8 @@ const PlasmicDescendants = {
   ],
   home: [
     "home",
-    "rectangle794",
-    "sweatshirts2",
+    "teeshirt",
+    "teeShirt",
     "rectangle801",
     "rectangle804",
     "rectangle803",
@@ -618,8 +616,8 @@ const PlasmicDescendants = {
     "textInput2",
     "img",
   ],
-  rectangle794: ["rectangle794", "sweatshirts2"],
-  sweatshirts2: ["sweatshirts2"],
+  teeshirt: ["teeshirt", "teeShirt"],
+  teeShirt: ["teeShirt"],
   rectangle801: ["rectangle801"],
   rectangle804: ["rectangle804"],
   rectangle803: ["rectangle803"],
@@ -666,8 +664,8 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   home: "div";
-  rectangle794: "a";
-  sweatshirts2: "div";
+  teeshirt: "a";
+  teeShirt: "div";
   rectangle801: "div";
   rectangle804: "div";
   rectangle803: "div";
@@ -758,8 +756,8 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     home: makeNodeComponent("home"),
-    rectangle794: makeNodeComponent("rectangle794"),
-    sweatshirts2: makeNodeComponent("sweatshirts2"),
+    teeshirt: makeNodeComponent("teeshirt"),
+    teeShirt: makeNodeComponent("teeShirt"),
     rectangle801: makeNodeComponent("rectangle801"),
     rectangle804: makeNodeComponent("rectangle804"),
     rectangle803: makeNodeComponent("rectangle803"),
