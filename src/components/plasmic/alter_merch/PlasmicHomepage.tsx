@@ -51,6 +51,23 @@ import image2I7GLlVst from "./images/image2.png"; // plasmic-import: I7g-LLVst/p
 import Messenger from "../../Messenger";
 import TeeShirt from "../../TeeShirt";
 
+import { loadStdlib } from "@reach-sh/stdlib";
+import MyAlgoConnect from "@reach-sh/stdlib/ALGO_MyAlgoConnect";
+import ConnectWalletButton from "./ConnectButton/ConnectWalletBtn";
+import TransferFund from "./Transferfund";
+import FundAccount from "./FundWallet";
+import myalgo from "../../assets/images/myaglo-logo.png";
+import { MyAlgoWalletMain } from "./MyAlgoWallet.styles";
+
+const reach = loadStdlib("ALGO");
+
+reach.setWalletFallback(
+  reach.walletFallback({
+    providerEnv: "TestNet",
+    MyAlgoConnect,
+  })
+);
+
 export type PlasmicHomepage__VariantMembers = {};
 export type PlasmicHomepage__VariantsArgs = {};
 type VariantPropType = keyof PlasmicHomepage__VariantsArgs;
@@ -112,6 +129,26 @@ function PlasmicHomepage__RenderFunc(props: {
   const $props = {
     ...args,
     ...variants,
+  };
+  const getAccount = async () => {
+    try {
+      account.current = await reach.getDefaultAccount();
+      setAccountAddress(account.current.networkAccount.addr);
+      console.log("Account :" + account.current.networkAccount.addr);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const getBalance = async () => {
+    try {
+      let rawBalance = await reach.balanceOf(account.current);
+      balance.current = reach.formatCurrency(rawBalance, 4);
+      setAccountBal(balance.current);
+      console.log("Balance :" + balance.current);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (
@@ -520,6 +557,8 @@ function PlasmicHomepage__RenderFunc(props: {
             </Button>
 
             <Button
+              accountAddress={accountAddress}
+              connectWallet={connectWallet}
               className={classNames("__wab_instance", sty.button___37Oyz)}
             >
               {"Connect your Wallet"}

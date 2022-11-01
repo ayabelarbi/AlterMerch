@@ -12,17 +12,12 @@ import Messenger from "./components/Messenger";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="teeshirt" element={<TeeShirt />} />
-          <Route path="Messenger" element={<Messenger />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Homepage />
+      <TeeShirt />
+    </Routes>
   );
 }
-
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
